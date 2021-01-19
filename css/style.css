@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/SofiaProBlack.woff2') format('woff2'),
+         url('../fonts/SofiaProBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/SofiaProBold.woff2') format('woff2'),
+         url('../fonts/SofiaProBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/SofiaProSemiBold.woff2') format('woff2'),
+         url('../fonts/SofiaProSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/SofiaProRegular.woff2') format('woff2'),
+         url('../fonts/SofiaProRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/SofiaProExtraLight.woff2') format('woff2'),
+         url('../fonts/SofiaProExtraLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --white: #fff;
+    --black: #191919;
+    --blackLigh: #393939;
+    --blackLigh2: #1C1C1C;
+    --blue: #7614FD;
+    --grey: #5E5E5E;
+    --greyDak: #4A4A4A;
+    --greyDakBlack: #3F3F3F;
+}
+h2 {
+    font-family: 'Sofia Pro';
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--blue);
+}
