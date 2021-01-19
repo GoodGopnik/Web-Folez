@@ -51,9 +51,3 @@ body {
     --greyDak: #4A4A4A;
     --greyDakBlack: #3F3F3F;
 }
-h2 {
-    font-family: 'Sofia Pro';
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--blue);
-}
