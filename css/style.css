@@ -89,6 +89,9 @@ body {
 .menu li:hover ul{
     display: block;
 }
+.menu a:hover {
+    color: var(--blue);
+}
 .menu img {
     padding: 0 5px;
 }
@@ -172,11 +175,12 @@ body {
     background: var(--blue);
     text-decoration: none;
     color: var(--white);
-    margin: 15px;
+    margin-right: 25px;
     font-size: 18px;
 }
 .logo-social {
     margin-top: 222px;
+    display: flex;
 }
 .logo-social a {
     padding: 10px;
@@ -185,7 +189,4 @@ body {
     color: var(--white);
     border: 1px solid #3F3F3F;
     text-align: center;
-}
-.logo-social svg {
-    border: 1px solid red;
 }
