@@ -99,13 +99,17 @@ body {
     transform: rotate(180deg);
 }
 .logo-block {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
 }
 .logo-text {
-    max-width: 755px;
+    width: 100%;
+    max-width: 756px;
     padding-top: 105px;
     padding-bottom: 85px;
     background: var(--black);
+    z-index: 2;
 }
 .container-block {
     padding-left: 177px;
@@ -152,21 +156,22 @@ body {
     color: var(--white);
     padding: 0;
     margin: 0;
-    position: relative;
-    z-index: 5;
+    position: absolute;
+    z-index: 10;
 }
 .logo-text h1 span {
     font-family: 'Sofia Pro';
     font-weight: 700;
     font-size: 72px;
     color: var(--blue);
+    z-index: 10;
 }
 .logo-text-4 {
     font-family: 'Sofia Pro';
     font-weight: 300;
     font-size: 30px;
     color: var(--grey);
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 58px;
 }
 .logo-bt a {
@@ -189,4 +194,78 @@ body {
     color: var(--white);
     border: 1px solid #3F3F3F;
     text-align: center;
+}
+.logo-vector {
+    background: var(--black);
+    width: 100%;
+    padding-top: 105px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+}
+.logo-vector-block-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    position: relative;
+    z-index: 9;
+}
+.logo-vector-block-1 a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
+    padding-right: 80px;
+}
+.logo-vector-block-1 li {
+    list-style: none;
+}
+.logo-vector-block-1 a:hover {
+    font-weight: 900;
+}
+.logo-vector-img {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vector-img1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    z-index: 6;
+}
+.vector-img2 {
+    z-index: 6;
+} 
+.vector5 {
+    position: absolute;
+    top: -20px;
+    right: 550px;
+    z-index: 1;
+}
+.vector2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.vector4 {
+    position: absolute;
+    bottom: -325px;
+    left: -160px;
+    z-index: 1;
+}
+.vector3 {
+    position: absolute;
+    top: 875px;
+    right: 0;
+    z-index: 1;
+}
+.vector1 {
+    position: absolute;
+    top: 348px;
+    right: 100px;
+    z-index: 1;
 }
