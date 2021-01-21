@@ -1,0 +1,66 @@
+@media(max-width: 1800px) {
+    .logo-block .logo-text h1 {
+        font-size: 60px;
+    }
+    .logo-block .logo-text h1 span {
+        font-size: 60px;
+    }
+    .logo-vector-img .vector4 {
+        left: -300px;
+    }
+}
+@media(max-width: 1665px) {
+    .logo-text .container-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width: 1500px) {
+    .logo-block .logo-text h1 {
+        font-size: 50px;
+    }
+    .logo-block .logo-text h1 span {
+        font-size: 50px;
+    }
+    .logo-text .logo-bt a {
+        margin-right: 10px;
+    }
+}
+@media(max-width: 1420px) {
+    /* .logo-bt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+    .logo-bt a {
+        margin-bottom: 10px;
+    }
+    .logo-vector-img .vector-img1 {
+        margin-left: 200px;
+    }
+    .logo-vector .logo-vector-block-1 a {
+        padding-right: 20px;
+    }
+}
+@media(max-width: 1400px) {
+    .logo-block .logo-text h1 {
+        font-size: 40px;
+    }
+    .logo-block .logo-text h1 span {
+        font-size: 40px;
+    }
+}
+@media(max-width: 1350px) {
+    .logo-text .logo-text-1 {
+        margin-top: 25px;
+    }
+    .logo-text .logo-text-1 a {
+        font-size: 20px;
+    }
+    .logo-text .logo-text-1 span {
+        font-size: 20px;
+    }
+    .logo-vector-img .vector-img1 {
+        margin-left: 100px;
+    }
+}
