@@ -27,11 +27,6 @@
     }
 }
 @media(max-width: 1420px) {
-    /* .logo-bt {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
     .logo-bt a {
         margin-bottom: 10px;
     }
@@ -62,5 +57,99 @@
     }
     .logo-vector-img .vector-img1 {
         margin-left: 100px;
+    }
+    .logo-vector-img .vector4 {
+        left: -400px;
+    }
+    .logo-vector-img .vector3 {
+        right: -50px;
+    }
+}
+@media(max-width: 1250px) {
+    .vector1 {
+        width: 600px;
+        height: 500px;
+    }
+    .vector2 {
+        width: 350px;
+        height: 250px;
+    }
+    .logo-vector-img  .vector3 {
+        width: 500px;
+        right: -100px;
+        top: 1000px;
+    }
+}
+@media(max-width: 1200px) {
+    /* .logo-bt {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-text-block1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-text-block1 img {
+        display: none;
+    }
+    .menu {
+        padding: 0;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .container-block .logo-text-3 {
+        padding-top: 100px;
+        padding-bottom: 68px;
+    } */
+    /* .logo-block .logo-text h1 {
+        font-size: 30px;
+    }
+    .logo-block .logo-text h1 span {
+        font-size: 30px;
+    } */
+    .logo-vector-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-vector-img  .vector-img2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo-vector-img  .vector-img1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo-vector-img .vector5 {
+        right: 450px;
+    }
+    .logo-vector-img .vector1 {
+        top: 348px;
+        right: 0;
+    }
+    .logo-vector-img .vector4 {
+        left: -500px;
+    }
+    .logo-vector-img  .vector3 {
+        width: 500px;
+        right: -200px;
+        top: 1000px;
+    }
+    .logo-vector .logo-vector-block-1 li {
+        margin: 10px;
+    }
+    .logo-vector-block-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper .logo-vector {
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    .logo-vector .logo-vector-img {
+        margin-top: 50px;
     }
 }
