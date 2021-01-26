@@ -31,7 +31,7 @@
 }
 @media(max-width: 1420px) {
     .service-block .service-vector img {
-        top: -50px;
+        top: 200px;
     }
 }
 @media(max-width: 1420px) {
@@ -166,7 +166,7 @@
         height: 500px;
     }
     .service-block .service-vector img {
-        top: 50px;
+        top: 700px;
     }
 }
 @media(max-width: 525px) {
@@ -241,8 +241,7 @@
         top: 1200px;
     }
     .service-block .service-vector img {
-        top: 500px;
-        height: 600px;
+        display: none;
     }
     .service-block-about .service-block1 {
         padding-right: 30px;
@@ -250,5 +249,14 @@
         flex-direction: column;
         align-items: center;
         padding: 10px 10px;
+    }
+    .service-img {
+        margin: 0 50px;
+    }
+    .service-container .service-text-about {
+        padding-top: 50px;
+    }
+    .service-container .service-block-about {
+        padding-bottom: 50px;
     }
 }
