@@ -371,3 +371,105 @@ body {
     top: -300px;
     width: 100%;
 }
+/**************** Portfolio ****************/
+.portfolio {
+    background: var(--black);
+}
+.portfolio-block-1 {
+    height: 550px;
+    text-align: center;
+}
+.portfolio-block-1 p {
+    margin: 0;
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--blackLigh);
+}
+.portfolio-block-1 h2 {
+    margin: 0;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+} 
+.width-portfolio-text {
+    width: 192px;
+    height: 8px;
+    background: var(--blue);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+.portfolio-container {
+    max-width: 1530px;
+    margin: 0 auto;
+}
+.portfolio-block-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.portfolio-block-2-about {
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-text {
+    padding-left: 60px;
+    padding-right: 61px;
+    max-width: 397px;
+    background: var(--black);
+    border-radius: 10px;
+}
+.portfolio-text p {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    margin: 0;
+    font-size: 13px;
+    color: rgba(104, 104, 104, 0.5);
+    margin-top: 36px;
+}
+.portfolio-text-bt {
+    padding-bottom: 40px;
+}
+.portfolio-text h3 {
+    margin: 0;
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--white);
+    margin-top: 30px;
+    max-width: 259px;
+}
+.portfolio-text span {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--blue);
+}
+.portfolio-text a {
+    padding: 23px 52px;
+    border-radius: 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+}
+.portfolio-vector {
+    padding-top: 100px;
+    margin-top: -400px;
+    padding-bottom: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .portfolio-vector-img img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: -100px;
+} */

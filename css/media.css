@@ -158,6 +158,13 @@
     .logo-vector-img .vector1 {
         right: 50px;
     }
+    .portfolio-block-2-about {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-text {
+        margin-bottom: 50px;
+    }
 }
 @media(max-width: 775px) {
     .logo-vector-img .vector1 {
@@ -175,6 +182,17 @@
     }
     .logo-vector-img .vector4 {
         left: -300px;
+    }
+}
+@media(max-width: 420px) {
+    .portfolio-img img {
+            width: 300px;
+    }
+    .portfolio-img {
+        text-align: center;
+    }
+    .portfolio-block-2-about .portfolio-text a {
+        padding: 20px 20px;
     }
 }
 @media(max-width: 400px) {
