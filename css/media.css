@@ -28,6 +28,9 @@
     .logo-text .logo-bt a {
         margin-right: 10px;
     }
+    .portfolio .portfolio-vector-img img {
+        bottom: -3200px;
+    }
 }
 @media(max-width: 1420px) {
     .service-block .service-vector img {
@@ -127,6 +130,11 @@
     }
     .logo-vector .logo-vector-img {
         margin-top: 50px;
+    }
+}
+@media(max-width: 1000px) {
+    .portfolio .portfolio-vector-img img {
+        display: none;
     }
 }
 @media(max-width: 950px) {

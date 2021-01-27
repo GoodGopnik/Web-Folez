@@ -378,6 +378,9 @@ body {
 .portfolio-block-1 {
     height: 550px;
     text-align: center;
+    position: relative;
+    background: var(--black);
+    z-index: 3;
 }
 .portfolio-block-1 p {
     margin: 0;
@@ -403,16 +406,16 @@ body {
     margin: 0 auto;
     margin-top: -12px;
 }
-.portfolio-container {
-    max-width: 1530px;
-    margin: 0 auto;
-}
 .portfolio-block-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
+    max-width: 1540px;
+    position: relative;
+    margin-top: -300px;
+    z-index: 100;
 }
 .portfolio-block-2-about {
     display: flex;
@@ -460,24 +463,20 @@ body {
     font-size: 18px;
 }
 .portfolio-vector {
-    padding-top: 100px;
-    margin-top: -400px;
     padding-bottom: 120px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
-/* .portfolio-vector-img img {
+.portfolio-vector-img img {
     width: 100%;
     position: absolute;
     z-index: 1;
-    bottom: -100px;
-} */
+    bottom: -2900px;
+}
 /**************** Reviews ****************/
 .reviews {
     background: var(--black);
     padding-bottom: 154px;
     position: relative;
-    z-index: 1;
+    z-index: 5;
 }
 .reviews-text {
     text-align: center;
@@ -544,7 +543,7 @@ body {
     width: 100%;
     position: absolute;
     z-index: 1;
-    bottom: -100px;
+    bottom: -150px;
 }
 /**************** Footer ****************/
 .foot {
