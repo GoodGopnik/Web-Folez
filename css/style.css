@@ -381,7 +381,6 @@ body {
 }
 .portfolio-block-1 p {
     margin: 0;
-    margin: 0;
     margin-bottom: 25px;
     font-family: 'Sofia Pro';
     font-size: 20px;
@@ -473,3 +472,77 @@ body {
     z-index: 1;
     bottom: -100px;
 } */
+/**************** Reviews ****************/
+.reviews {
+    background: var(--black);
+    padding-bottom: 154px;
+    position: relative;
+    z-index: 1;
+}
+.reviews-text {
+    text-align: center;
+}
+.reviews-text h2 {
+    margin: 0;
+    font-family: 'Sofia Pro';
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+}
+.reviews-text p {
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--blackLigh);
+}
+.width-reviews-text {
+    width: 192px;
+    height: 8px;
+    background: var(--blue);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+.reviews-block {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    position: relative;
+    z-index: 5;
+}
+.reviews-block1 {
+    display: flex;
+    justify-content: space-between;
+    background: #1d1d1d;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.reviews-block1-text h3 {
+    font-family: 'Sofia Pro';
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--white);
+    margin: 0;
+    margin-top: 50px;
+}
+.reviews-block1-text p {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--blackLigh);
+    margin: 0;
+    margin-top: 10px;
+    padding-right: 38px;
+}
+.reviews-vector img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: -100px;
+}

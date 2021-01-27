@@ -140,6 +140,9 @@
         width: 300px;
         top: 1200px;
     }
+    .reviews .reviews-vector img {
+        bottom: 500px;
+    }
 }
 @media(max-width: 775px) {
     .logo-block {
@@ -275,6 +278,23 @@
         padding-top: 50px;
     }
     .service-container .service-block-about {
+        padding-bottom: 50px;
+    }
+    .reviews .reviews-vector img {
+        display: none;
+    }
+    .reviews-block1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .reviews-block1 .reviews-block1-text p {
+        padding: 0;
+    }
+    .reviews-block1 .reviews-block1-text h3 {
+        margin: 0;
+    }
+    .wrapper .reviews {
         padding-bottom: 50px;
     }
 }
