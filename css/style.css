@@ -546,3 +546,60 @@ body {
     z-index: 1;
     bottom: -100px;
 }
+/**************** Footer ****************/
+.foot {
+    background: var(--blackLigh2);
+    padding-top: 113px;
+    padding-bottom: 110px;
+}
+.foot-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 787px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+.foot-text p {
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 20px;
+}
+.foot-text a {
+    text-decoration: none;
+    color: #565656;
+}
+.foot-logo h3 {
+    font-family: 'Sofia Pro';
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--white);
+    margin: 0;
+}
+.foot-logo span {
+    font-family: 'Sofia Pro';
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--blue);
+}
+.foot-logo {
+    text-align: center;
+}
+.foot-logo p {
+    font-family: 'Sofia Pro';
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--greyDakBlack);
+}
+.foot-icon {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+.foot-icon a {
+    padding: 10px;
+    margin: 10px;
+    background: #222222;
+    color: var(--white);
+    border: 1px solid #3F3F3F;
+}

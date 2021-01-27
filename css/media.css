@@ -186,6 +186,14 @@
     .logo-vector-img .vector4 {
         left: -300px;
     }
+    .foot-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot-logo {
+        order: -1;
+    }
 }
 @media(max-width: 420px) {
     .portfolio-img img {
