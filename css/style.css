@@ -374,6 +374,7 @@ body {
 /**************** Portfolio ****************/
 .portfolio {
     background: var(--black);
+    position: relative;
 }
 .portfolio-block-1 {
     height: 550px;
@@ -469,7 +470,7 @@ body {
     width: 100%;
     position: absolute;
     z-index: 1;
-    bottom: -2900px;
+    bottom: -450px;
 }
 /**************** Reviews ****************/
 .reviews {

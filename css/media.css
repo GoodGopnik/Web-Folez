@@ -29,7 +29,7 @@
         margin-right: 10px;
     }
     .portfolio .portfolio-vector-img img {
-        bottom: -3200px;
+        bottom: 0px;
     }
 }
 @media(max-width: 1420px) {
